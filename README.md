@@ -5,7 +5,7 @@
 
 
 
-Fans are quintessential in Singapore due to it being located on the equator and its high humidity. They are evermore important during the months of May to July, due to the existing gap between the northern and southern moonsoon which brings along rain and wind. Wouldn’t it be perfect to constant have you fan on at all times? However in reality, as we progress forward into sustainability and being green, we try our best to keep the fan off and only use it when necessary. It is a simple process that you can follow through:
+Fans are quintessential in Singapore due to it being located on the equator and its high humidity. They are evermore important during the months of May to July, due to the existing gap between the northern and southern moonsoon which brings along rain and wind. Wouldn’t it be perfect to constant have your fan on at all times? However in reality, as we progress forward into sustainability and being green, we try our best to keep the fan off and only use it when necessary. It is a simple process that you can follow through:
 
 
 ##### You will require this few items: 
@@ -64,10 +64,6 @@ Servo motors have 3 wires of different colours primarily being brown, red and or
 
 The following code below is for setting up the DHT11 sensor module and the servo motor. It is entirely up to you to change the conditions for which the servo motor should spin. 
 
-
-<details>
-
-<summary>Code to setup DHT11 sensor module and servo motor</summary>
 
 
 ```
@@ -129,21 +125,12 @@ void loop() {
 }
 
 
-
 ```
-
-</details>
-
 
 
 ---
 ### Firebase realtime database
 The following code is to set the firebase realtime database connection up in your arduino ide. The code can also be found on the Arduino IDE library Firebase Arduino Client Library for ESP8266 and ESP32 by Mobizt > Examples >RTDB > Basic. From there you would be required to enter your `Wifi SSID`,` Wifi password`, `API_key` from your firebase and your firebase realtime database URL, the user email and password and make changes to the code by including your DHT11 sensor, beginning it and sending data over to the Firebase. 
-
-
-<details>
-
-<summary>Code for realtime database</summary>
 
 
 
@@ -431,22 +418,15 @@ void loop()
  */
 
 
-
-
 ```
 
-</details>
+
 
 
 ---
 ### Code for Tkinter
 
 To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database 
-
-
-<details>
-
-<summary>Code to setup Tkinter</summary>
 
 
 ```
@@ -511,10 +491,6 @@ window.mainloop()
 
 
 ```
-
-</details>
-
-
 
 
 
