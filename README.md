@@ -17,7 +17,7 @@ Fans are quintessential in Singapore due to it being located on the equator and 
 
 ----
 ### DHT11 Sensor Module
-
+![IMG_8197](https://github.com/j0ellim/j0ellim.github.io/assets/118902010/04d0b8ce-5046-4ee7-9515-dc1dab963867)
 DHT11 sensors module has 3 pins, + , out and -. 
 
 +: VCC Power supply 3.5V to 5.5V
