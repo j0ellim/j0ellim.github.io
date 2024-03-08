@@ -136,6 +136,8 @@ The following code is to set the firebase realtime database connection up in you
 <summary>Code for Firebase Realtime database</summary>
 
 
+
+
 ```
 /**
  * Created by K. Suwatchai (Mobizt)
