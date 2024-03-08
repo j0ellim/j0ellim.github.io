@@ -60,28 +60,20 @@ Servo motors have 3 wires of different colours primarily being brown, red and or
 
 
 ---
-### Code
+### Code for setting up DHT11 sensor module and servo motor
 
 The following code below is for setting up the DHT11 sensor module and the servo motor. It is entirely up to you to change the conditions for which the servo motor should spin. 
 
-<details>
-
-<summary>Code for setting up DHT11 sensor module and servo motor</summary>
 
 
 ```
 
 #include <DHT.h>
-
-
 #include <Servo.h>
 
 DHT dht(4,DHT11);
 
-
 Servo myservo= Servo();  // Create servo object
-
-
 
 // twelve servo objects can be created on most boards
 
@@ -110,7 +102,7 @@ void loop() {
   Serial.print("--------");
   //delay(2000);
 
-  if (temp > 20) { 
+  if (temp > 27) { 
     for (int pos = 0; pos <= 360; pos++) {  // go from 0-180 degrees
     myservo.write(2, pos);        // set the servo position (degrees)
     delay(1);
@@ -120,7 +112,7 @@ void loop() {
     delay(1);
   }
 
-  } else if (humidity > 50) { 
+  } else if (humidity > 70) { 
     for (int pos = 0; pos <= 180; pos++) {  // go from 0-180 degrees
     myservo.write(2, pos);        // set the servo position (degrees)
     delay(1);
@@ -134,20 +126,12 @@ void loop() {
 
 ```
 
-</details>
 
+---
+### Code for firebase realtime database
 The following code is to set the firebase realtime database connection up in your arduino ide. The code can also be found on the Arduino IDE library Firebase Arduino Client Library for ESP8266 and ESP32 by Mobizt > Examples >RTDB > Basic. From there you would be required to enter your `Wifi SSID`,` Wifi password`, `API_key` from your firebase and your firebase realtime database URL, the user email and password and make changes to the code by including your DHT11 sensor, beginning it and sending data over to the Firebase. 
 
-
-<details>
-
-<summary>Code for Firebase Realtime database</summary>
-
-
-
-
 ```
-
 
 /**
  * Created by K. Suwatchai (Mobizt)
@@ -433,19 +417,10 @@ void loop()
 
 ```
 
-</details>
-
-
-
 ---
-### Tkinter
+### Code for Tkinter
 
 To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database 
-
-
-<details>
-
-<summary>Code for tkinter</summary>
 
 
 ```
@@ -454,8 +429,6 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import auth
 from firebase_admin import db
-
-
 
 import tkinter as tk
 
@@ -510,8 +483,6 @@ update_from_firebase()
 window.mainloop()
 
 ```
-
-</details>
 
 
 
