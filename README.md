@@ -40,6 +40,8 @@ Out: Data Outputs both Temperature and Humidity through serial Data which goes t
 ---
 ### Micro Servo Motor SG90 
 
+![IMG_8198](https://github.com/j0ellim/j0ellim.github.io/assets/118902010/678bb489-0158-45df-8a04-57dd6b5ab019)
+
 Servo motors have 3 wires of different colours primarily being brown, red and orange. 
 -  orange:pwm (pulse width modulation) any pwm pin
 -  red:vcc
