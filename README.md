@@ -69,7 +69,9 @@ The following code below is for setting up the DHT11 sensor module and the servo
 <summary>Code for setting up DHT11 sensor module and servo motor</summary>
 
 
-```#include <DHT.h>
+```
+
+#include <DHT.h>
 #include <Servo.h>
 
 DHT dht(4,DHT11);
@@ -139,6 +141,8 @@ The following code is to set the firebase realtime database connection up in you
 
 
 ```
+
+
 /**
  * Created by K. Suwatchai (Mobizt)
  *
@@ -419,6 +423,8 @@ void loop()
  * }
  *
  */
+
+
 ```
 
 </details>
@@ -436,7 +442,9 @@ To set up tkinter, you would require a json file which you can generate from you
 <summary>Code for tkinter</summary>
 
 
-```import firebase_admin
+```
+
+import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import auth
 from firebase_admin import db
