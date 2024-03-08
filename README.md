@@ -72,10 +72,16 @@ The following code below is for setting up the DHT11 sensor module and the servo
 ```
 
 #include <DHT.h>
+
+
 #include <Servo.h>
 
 DHT dht(4,DHT11);
+
+
 Servo myservo= Servo();  // Create servo object
+
+
 
 // twelve servo objects can be created on most boards
 
