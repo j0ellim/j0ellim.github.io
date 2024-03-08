@@ -64,6 +64,9 @@ Servo motors have 3 wires of different colours primarily being brown, red and or
 
 The following code below is for setting up the DHT11 sensor module and the servo motor. It is entirely up to you to change the conditions for which the servo motor should spin. 
 
+<details>
+
+<summary>Code for DHT11 sensor module and servo motors</summary>
 
 
 ```
@@ -124,12 +127,23 @@ void loop() {
   } 
 }
 
+
 ```
+
+</details>
+
+
 
 
 ---
 ### Code for firebase realtime database
 The following code is to set the firebase realtime database connection up in your arduino ide. The code can also be found on the Arduino IDE library Firebase Arduino Client Library for ESP8266 and ESP32 by Mobizt > Examples >RTDB > Basic. From there you would be required to enter your `Wifi SSID`,` Wifi password`, `API_key` from your firebase and your firebase realtime database URL, the user email and password and make changes to the code by including your DHT11 sensor, beginning it and sending data over to the Firebase. 
+
+
+<details>
+
+<summary>Code for setting up Realtime Database</summary>
+
 
 ```
 
@@ -415,12 +429,21 @@ void loop()
  */
 
 
+
 ```
+
+</details>
+
 
 ---
 ### Code for Tkinter
 
 To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database 
+
+
+<details>
+
+<summary>Code for setting up Tkinter</summary>
 
 
 ```
@@ -482,7 +505,12 @@ update_from_firebase()
 
 window.mainloop()
 
+
 ```
+
+</details>
+
+
 
 
 
