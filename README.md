@@ -57,6 +57,7 @@ Servo motors have 3 wires of different colours primarily being brown, red and or
 
 ----
 ### Schematics 
+ <img width="956" alt="Screenshot 2024-03-10 at 12 27 15 PM" src="https://github.com/j0ellim/j0ellim.github.io/assets/118902010/0322e4b2-d692-42f1-b1c0-fff8f7c74832">
 
 
 ---
