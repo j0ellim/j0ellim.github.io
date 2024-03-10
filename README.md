@@ -5,14 +5,14 @@
 
 
 
-Fans are quintessential in Singapore due to it being located on the equator and its high humidity. They are evermore important during the months of May to July, due to the existing gap between the northern and southern moonsoon which brings along rain and wind. Wouldn’t it be perfect to constant have your fan on at all times? However in reality, as we progress forward into sustainability and being green, we try our best to keep the fan off and only use it when necessary. It is a simple process that you can follow through:
+Fans are quintessential in Singapore due to it being located on the equator and its high humidity. They are increasingly important during the months of May to July, due to the existing gap between the northern and southern moonsoon which reduces the amount of rain and wind we get. Wouldn’t it be perfect to constantly have your fan on at all times? However in reality where we are all focused on being more sustainable and eco friendly,it is best to only turn on the fan when necessary like in the daytime. In this guide, I'll be showing you a simple process that you can follow through to make use of a motor that turns on according to the temperature and humidity:
 
 
 ##### You will require this few items: 
 1. ESP32-C3-DevKitM-1 / Arduino uno 
 2. Small Breadboard
 3. DHT11 Sensor Module
-4. Micro Servo Motor SG90
+4. Micro Servo Motor SG90 
 5. 6 x jumper wires
 
 ----
