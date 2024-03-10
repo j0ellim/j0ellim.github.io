@@ -426,8 +426,9 @@ void loop()
 ---
 ### Code for Tkinter
 
-To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database 
+To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database. Copy the code below into an IDE where u can run it. 
 
+https://github.com/j0ellim/j0ellim.github.io/assets/118902010/a7bfa516-cbb7-48d9-ac96-156b6b1b949d 
 
 ```
 
