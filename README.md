@@ -434,7 +434,11 @@ void loop()
 
 To set up tkinter, you would require a json file which you can generate from your firebase ` generate private key ` and the web url of your firebase realtime database. Copy the code below into an IDE where u can run it. 
 
-https://github.com/j0ellim/j0ellim.github.io/assets/118902010/df70023c-cb6d-4f69-a13e-d3cd0fd57fdf
+
+
+https://github.com/j0ellim/j0ellim.github.io/assets/118902010/e2bcd64c-2a39-4193-a948-75edf97890ca
+
+
 
 
 ``` 
