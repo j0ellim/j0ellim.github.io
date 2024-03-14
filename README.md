@@ -61,6 +61,11 @@ Servo motors have 3 wires of different colours primarily being brown, red and or
 eap32-c3 devkitm-1 image from : https://docs.espressif.com/projects/esp-idf/en/stable/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html
 
 ---
+
+### Youtube video of it working
+https://youtu.be/wp9mn9pgZ-s
+
+---
 ### Code for setting up DHT11 sensor module and servo motor
 
 The following code below is for setting up the DHT11 sensor module and the servo motor. It is entirely up to you to change the conditions for which the servo motor should spin. 
