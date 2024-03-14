@@ -437,7 +437,7 @@ To set up tkinter, you would require a json file which you can generate from you
 
 ![Screenrecording of the tkinter window.](https://github.com/j0ellim/j0ellim.github.io/assets/118902010/a7bfa516-cbb7-48d9-ac96-156b6b1b949d)
 
-
+Video link of tkinter window : <https://github.com/j0ellim/j0ellim.github.io/assets/118902010/df70023c-cb6d-4f69-a13e-d3cd0fd57fdf>
 
 ``` 
 
