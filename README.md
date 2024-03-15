@@ -5,7 +5,8 @@
 
 
 
-Fans are quintessential in Singapore due to it being located on the equator and its high humidity. They are increasingly important during the months of May to July, due to the existing gap between the northern and southern moonsoon which reduces the amount of rain and wind we get. Wouldn’t it be perfect to constantly have your fan on at all times? However in reality where we are all focused on being more sustainable and eco friendly,it is best to only turn on the fan when necessary like in the daytime. In this guide, I'll be showing you a simple process that you can follow through to make use of a motor that turns on according to the temperature and humidity:
+
+Fans are essential in Singapore due to its location on the equator and the high humidity levels, especially during the months of May to July. This period marks a gap between the northern and southern monsoons, leading to reduced rainfall and wind, making fans increasingly important. Ideally, having a fan constantly running would provide relief from the heat. However, in our current pursuit of sustainability and eco-friendliness, it's more responsible to use fans only when necessary, such as during the daytime. To align with these principles, this guide will introduce a simple method that you can follow through to make use of a motor that turns on according to the temperature and humidity:
 
 
 ##### You will require this few items: 
